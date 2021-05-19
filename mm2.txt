@@ -1,4 +1,5 @@
-   CoreGui:SetCore("SendNotification", {
+local CoreGui = game:GetService("StarterGui")
+  CoreGui:SetCore("SendNotification", {
 	Title = "Game Detected!";
 	Text = "Loading UI | Murder Mystery 2";
 	Duration = 5;
@@ -13,7 +14,6 @@ local emotes = Library:Window("Emotes")
 local esp = Library:Window("ESP")
 local Trolling = Library:Window("Trolling")
 local b = Library:Window("Credits")
-local CoreGui = game:GetService("StarterGui")
 
    CoreGui:SetCore("SendNotification", {
 	Title = "Loaded!";
